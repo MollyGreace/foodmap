@@ -1,3 +1,21 @@
+body {
+  color: bisque;
+  font-family: 'Pacifico', cursive; 
+}
+
+hr {
+  border: 1px solid cadetblue;
+  width: 100%;
+}
+
 /* Index */
-.maps iframe {
+.bg-index {
+  background-image: url(../assets/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: -webkit-fill-available;
+}
+
+h1 {
+  font-size: 3em;
 }
