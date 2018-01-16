@@ -27,11 +27,11 @@
 
 
   <!--Sección home-->
-  <section class="container-fluid hidden" id="second">
+  <section class="container-fluid hidden bg-index" id="second">
     <!--Encabezado-->
     <main class="row">
-      <nav class="">
-        
+      <nav class="">FOODMAP
+
       </nav>
     </main>
     <!--Fin Encabezado-->
@@ -40,20 +40,27 @@
     <div class="row">
       <div class="mx-auto">
         <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15603.042352309118!2d-77.0261427284298!3d-12.128526614944187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurants!5e0!3m2!1ses-419!2spe!4v1514905117158"
-          width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+          width="270" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
     </div>
     <!--Fin Maps-->
 
-    <!-- <hr> -->
-    
-    <!-- 
-    <div class="row search">  
-      <div class="row restaurants">
-  
+    <hr>
+
+    <!--Búsquedas-->
+    <div class="row">
+      <div class="col-sm-12">Comida cerca de Tí</div>
+      <div class="col-sm-12">
+        <input type="text" name="search" id="search" placeholder="Busca por Distrito, Nombre, Tipo de comida"> 
+
       </div>
     </div>
-    -->
+    <!--Fin Búsquedas-->
+
+    <!--Restaurantes-->
+    <div class="container" id="container-restaurants">
+    </div>
+    <!--Fin Restaurantes-->
 
 
   </section>
@@ -61,8 +68,8 @@
 
   <script src="vendors/jquery/jquery-3.2.1.js"></script>
   <script src="vendors/bootstrap-4.0.0/js/bootstrap.min.js"></script>
-  <script src="js/app.js"></script>
   <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
 
 </body>
 

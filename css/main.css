@@ -19,3 +19,8 @@ hr {
 h1 {
   font-size: 3em;
 }
+
+.photo-restaurants {
+  height: 50px;
+  width: 50px;
+}
