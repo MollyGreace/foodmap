@@ -11,7 +11,7 @@ hr {
 /* Index */
 .bg-index {
   background-image: url(../assets/images/bg.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: cover;
   height: -webkit-fill-available;
 }
@@ -21,6 +21,6 @@ h1 {
 }
 
 .photo-restaurants {
-  height: 50px;
-  width: 50px;
+  height: 150px;
+  width: 150px;
 }

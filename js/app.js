@@ -16,9 +16,9 @@ $(document).ready(function() {
   //Función de cargar imágenes 
     for (i = 0; i < data.length; i++) {
     var photos = 
-		'<div class="col-sm-5">' +
-			'<img class="img-thumbnail photo-restaurants" src="' + data[i].image + '">'// data-target="#restModal" data-toggle="modal" data-name= "' + data[i].name + '" data-address= "' + data[i].address + '" data-phone= "' + data[i].telephone + '" data-web= "' + data[i].web +  '">' + 
-      // '<img class="img-thumbnail photo-restaurants" src = "' + data[i].back + '" data-target="#restModal" data-toggle="modal">' +
+		'<div class="col-xs ">' +
+			'<img class="img-thumbnail img-responsive photo-restaurants" src="' + data[i].image + '" data-target="#restModal" data-toggle="modal" data-name= "' + data[i].name + '" data-address= "' + data[i].address + '" data-phone= "' + data[i].telephone + '" data-web= "' + data[i].web +  '">' + 
+        //'<img class="img-thumbnail" src = "' + data[i].back + '" data-target="#restModal" data-toggle="modal">' +
     '</div>';
     containerRestaurants.append(photos);
     };
