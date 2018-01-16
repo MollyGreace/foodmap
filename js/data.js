@@ -38,6 +38,7 @@ var data = [{
   'telephono': '(01) 446 - 2512',
   'address': 'Ubicación: calle San Martín 399 ( Esquina con calle Colón ), Miraflores - Lima, Perú',
   'web': 'http://www.maido.pe/',
+  'logo': 'assets/images/restaurants/maido-logo.png',
 },
 {
   'name': 'Huaca Pucllana',
