@@ -3,7 +3,7 @@ var data = [{
   'name': 'Central Restaurante',
   'image': '../assets/images/restaurants/central.jpg',
   'description': 'Central Restaurante es un restaurante peruano ubicado en el distrito de Miraflores (Lima). Central Restaurante es el restaurante principal del chef peruano Virgilio Martínez Véliz y sirve como su taller en la investigación y la integración de insumos indígenos peruanos en la carta de comida del restaurante. El restaurante es conocido por su interpretación contemporánea y presentación de la cocina peruana.1​ Desde el año 2014 al año 2016 , tres años consecutivos , fue clasificado como el mejor restaurante de Latinoamérica por la revista británica ',
-  'telephono': '(01) 2428515',
+  'telephone': '(01) 2428515',
   'address': 'Calle Santa Isabel 376, Miraflores, Lima 15074',
   'web': 'www.centralrestaurante.com.pe',
 },

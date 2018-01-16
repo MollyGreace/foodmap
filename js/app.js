@@ -14,18 +14,14 @@ $(document).ready(function() {
   var search = $('#search');
   
   //Función de cargar imágenes 
-  var loadImage = function () {
     for (i = 0; i < data.length; i++) {
     var photos = 
-		'<div class="col-sm-5 container">' +
-			'<img class="img-thumbnail photo-restaurants" src = ' + data[i].image + ' data-target="#restModal" data-toggle="modal" data-name= "' + data[i].name + '" data-address= "' + data[i].address + '" data-telephone= "' + data[i].telephone + '" data-web= "' + data[i].web +  
-			'<img class="img-thumbnail photo-restaurants" src = ' + data[i].back + ' data-target="#restModal" data-toggle="modal">' +
-		'</div>';
-    imagesRestaurants = containerRestaurants.append(photos);
+		'<div class="col-sm-5">' +
+			'<img class="img-thumbnail photo-restaurants" src="' + data[i].image + '">'// data-target="#restModal" data-toggle="modal" data-name= "' + data[i].name + '" data-address= "' + data[i].address + '" data-phone= "' + data[i].telephone + '" data-web= "' + data[i].web +  '">' + 
+      // '<img class="img-thumbnail photo-restaurants" src = "' + data[i].back + '" data-target="#restModal" data-toggle="modal">' +
+    '</div>';
+    containerRestaurants.append(photos);
     };
-    return imagesRestaurants;
-  }
-  loadImage();  
 
   // // filtro
   // $('#search').keyup(function() {
