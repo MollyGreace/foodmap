@@ -23,44 +23,4 @@ $(document).ready(function() {
     containerRestaurants.append(photos);
     };
 
-  // // filtro
-  // $('#search').keyup(function() {
-  //   var name = $(this).val();
-  //   $('.collection').hide();
-  //   $('.collection').each(function() {
-  //     var search = $(this).text().toLowerCase();
-  //     if (search.indexOf(name) !== -1) {
-  //       $(this).show();
-  //     }
-  //   });
-  // });
-
-  // // modal
-  // $('.content').click(function() {
-  //   var name = $(this).data('name'),
-  //   	address = $(this).data('address'),
-  //     phone = $(this).data('phone'),
-  //     attention = $(this).data('attention'),
-  //     money = $(this).data('money'),
-  //     type = $(this).data('type');
-  //   $('.name').text(name);
-  //   $('.address').text(address);
-  //   $('.phone').text(phone);
-  //   $('.attention').text(attention);
-  //   $('.money').text(money);
-  //   $('.type').text(type);
-  // });
-	
-  // $('.close').click(function() {
-  //   $('#search').val('');
-  //   $('.collection').show();
-  // });
-	
-  // // mouseover
-  // $('.collection').mouseover(function() {
-  //   $('p', this).hide();
-  // });
-  // $('.collection').mouseout(function() {
-  //   $('p', this).show();
-  // });
 });
